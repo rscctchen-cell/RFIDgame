@@ -93,13 +93,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebas
 import { getDatabase, ref, onValue, set } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
 const firebaseConfig = {
-  databaseURL: "https://fightgame-b7536-default-rtdb.firebaseio.com/"
+  databaseURL: "https://fggame-2be63-default-rtdb.firebaseio.com/"
 };
 
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
-const base = "https://github.com/RSCCT/FGTC328/raw/main/";
+const base = "https://github.com/rscctchen-cell/RFIDgame/raw/main/";
 const videos = { A: base + "idle.mp4", B: base + "idle2.mp4", C: base + "idle3.mp4" };
 
 const v1 = document.getElementById("video1");
